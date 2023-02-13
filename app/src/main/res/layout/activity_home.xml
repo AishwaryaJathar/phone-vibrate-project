@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="176dp"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="375dp" />
+    <com.example.loadinganimation.LoadingAnimation
+        android:id="@+id/loadingAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:barType="@drawable/clock"
+        app:boldText="false"
+        app:enlarge="5"
+        android:layout_centerInParent="true"
+        app:textColor="@color/purple_500"
+        app:textSize="15sp" >
+    </com.example.loadinganimation.LoadingAnimation>
+
+
+
+
+</RelativeLayout>
